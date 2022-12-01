@@ -1,0 +1,217 @@
+:root {
+    --dodgerblue: #2196f3;
+    --black: #000000;
+    --white: #ffffff;
+    --darkgrey: #212121;
+    --lightgrey: #757575;
+    --verydarkgrey: #2f303a;
+    --clearwhite: #ffffff99;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--darkgrey);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--dodgerblue);
+    text-decoration: none;
+}
+.studio-black {
+    color: var(--black);
+}
+.studio-white {
+    color: var(--white);
+}
+.footer-wrapper {
+    font-style: normal;
+    background-color: var(--verydarkgrey);
+}
+
+.footer-wrapper .company-info {
+    background-color: var(--verydarkgrey);
+    color: var(--white);
+}
+.company-info {
+    font-style: normal;
+}
+.nav-list {
+    list-style: none;
+}
+.nav-list .nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--darkgrey);
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    color: var(--dodgerblue);
+}
+
+.nav-link {
+    color: var(--dodgerblue);
+}
+
+.contacts a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--lightgrey);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--dodgerblue);
+}
+.button-list {
+    list-style: none;
+}
+.button-list button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--darkgrey);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-list button:hover,
+.button-list button:focus {
+    color: var(--white);
+    background-color: var(--dodgerblue);
+}
+
+.order {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background-color: var(--dodgerblue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.text-order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white);
+}
+.second-contacts a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--clearwhite);
+}
+.second-contacts span {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--clearwhite);
+}
+.second-contacts a:hover,
+.second-contacts a:focus {
+    color: var(--dodgerblue);
+}
+.project-list {
+    list-style: none;
+}
+.project-list h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--darkgrey);
+}
+.project-list span {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--lightgrey);
+}
+.first-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.div-wrapper {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: var(--verydarkgrey);
+}
+.lorem-list {
+    list-style: none;
+}
+.lorem-list h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--darkgrey);
+}
+.lorem-list p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--lightgrey);
+}
+.second-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--darkgrey);
+}
+.job-list {
+    list-style: none;
+}
+.job-list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--darkgrey);
+}
+.job-list span {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--lightgrey);
+}
