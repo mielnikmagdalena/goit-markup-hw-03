@@ -13,7 +13,6 @@ body {
 }
 .container {
     max-width: 1200px;
-    padding: 0 15px;
     margin: 0 auto;
     outline: 1px dashed red;
 }
@@ -54,7 +53,7 @@ body {
 }
 
 .heading {
-    display: flex
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -69,7 +68,6 @@ body {
     border: none;
     cursor: pointer;
 }
-
 
 .footer-wrapper {
     font-style: normal;
@@ -137,7 +135,6 @@ body {
     color: var(--white);
     background-color: var(--dodgerblue);
 }
-
 
 .text-order {
     font-weight: 700;
