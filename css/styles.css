@@ -22,7 +22,7 @@ figure {
     padding: 0;
 }
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     /* outline: 1px dashed red; */
@@ -69,18 +69,13 @@ figure {
     background-color: var(--verydarkgrey);
 }
 
-.heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
 .images {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 94px;
+    padding-top: 25px;
 }
 .second-heading {
     font-weight: 700;
@@ -89,15 +84,41 @@ figure {
     letter-spacing: 0.03em;
     color: var(--darkgrey);
     text-align: center;
+    padding-bottom: 25px;
+    padding-top: 47px;
+}
+.section-cards {
+    background-color: #f5f4fa;
 }
 .cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 94px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.first-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 30px;
 }
 .order {
-    width: 200px;
+    display: flex;
+    flex-basis: 117px;
+    height: 30px;
     background-color: var(--dodgerblue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -105,17 +126,20 @@ figure {
     border: none;
     cursor: pointer;
     margin: 15px;
-    padding: 10px 41px 10px 42px;
 }
 .text-order {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white);
-    text-align: justify;
+    padding: 10px 41px 10px 42px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .footer-wrapper {
@@ -129,6 +153,8 @@ figure {
 }
 .company-info {
     font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 4.5px;
 }
 .nav-list {
     list-style: none;
@@ -197,6 +223,11 @@ figure {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--clearwhite);
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+}
+.second-contacts a:nth-child(2) {
+    padding-bottom: 60px;
 }
 .second-contacts span {
     font-size: 14px;
@@ -230,22 +261,17 @@ figure {
     letter-spacing: 0.03em;
     color: var(--lightgrey);
 }
-.first-heading {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white);
-    text-align: center;
-    margin: 15px;
-}
+
 .lorem-list {
     display: flex;
     list-style: none;
+    justify-content: flex-start;
+    gap: 30px;
 }
 .lorem-box {
     width: 270px;
+    padding-bottom: 45px;
+    padding-top: 5px;
 }
 
 .lorem-list h3 {
@@ -255,6 +281,8 @@ figure {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--darkgrey);
+    padding-top: 94px;
+    padding-bottom: 5px;
 }
 .lorem-list p {
     font-size: 14px;
@@ -262,10 +290,20 @@ figure {
     letter-spacing: 0.03em;
     color: var(--lightgrey);
     gap: 30px;
+    justify-content: flex-start;
 }
 
 .job-list {
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    background-color: var(--white);
+}
+.image > .job-list {
+    flex-grow: 1;
+}
+.image {
+    display: flex;
 }
 .job-list h3 {
     font-weight: 500;
@@ -274,6 +312,8 @@ figure {
     letter-spacing: 0.03em;
     color: var(--darkgrey);
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 .job-list span {
     font-size: 16px;
@@ -281,4 +321,10 @@ figure {
     letter-spacing: 0.03em;
     color: var(--lightgrey);
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.logo {
+    padding-top: 60px;
+    padding-bottom: 10px;
 }
