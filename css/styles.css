@@ -22,9 +22,10 @@ figure {
     padding: 0;
 }
 .container {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
-    outline: 1px dashed red;
+    padding: 0 15px;
+    /* outline: 1px dashed red; */
 }
 .section {
     padding: 94px 0;
@@ -75,7 +76,26 @@ figure {
     padding-top: 200px;
     padding-bottom: 200px;
 }
-
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.second-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--darkgrey);
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
 .order {
     width: 200px;
     background-color: var(--dodgerblue);
@@ -95,6 +115,7 @@ figure {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white);
+    text-align: justify;
 }
 
 .footer-wrapper {
@@ -189,6 +210,10 @@ figure {
 .second-contacts a:focus {
     color: var(--dodgerblue);
 }
+.section {
+    padding: 94px 0;
+}
+
 .project-list {
     list-style: none;
 }
@@ -219,6 +244,9 @@ figure {
     display: flex;
     list-style: none;
 }
+.lorem-box {
+    width: 270px;
+}
 
 .lorem-list h3 {
     font-weight: 700;
@@ -233,14 +261,9 @@ figure {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--lightgrey);
+    gap: 30px;
 }
-.second-heading {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: var(--darkgrey);
-}
+
 .job-list {
     list-style: none;
 }
@@ -250,10 +273,12 @@ figure {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--darkgrey);
+    text-align: center;
 }
 .job-list span {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--lightgrey);
+    text-align: center;
 }
