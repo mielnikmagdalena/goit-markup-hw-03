@@ -31,8 +31,9 @@ figure {
     padding: 94px 0;
 }
 .page-header {
-    text-decoration: none;
-    color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ececec;
 }
 .page-header > .container {
     display: flex;
