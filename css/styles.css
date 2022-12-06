@@ -25,18 +25,16 @@ figure {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px dashed red; */
+    outline: 1px dashed red;
 }
 .section {
     padding: 94px 0;
-}
-.page-header {
-    padding: 24px 0 25px;
 }
 .page-header > .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 371px;
 }
 .page-header > .container > nav {
     display: flex;
@@ -44,12 +42,17 @@ figure {
 }
 .page-header > .container > aside {
     display: flex;
+    gap: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .page-header > .container > nav > .nav-list {
     display: flex;
     gap: 46px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
-.logo {
+.page-header > .container > nav > a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -58,6 +61,8 @@ figure {
     letter-spacing: 0.03em;
     color: var(--dodgerblue);
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .studio-black {
     color: var(--black);
@@ -67,6 +72,59 @@ figure {
 }
 .content-section {
     background-color: var(--verydarkgrey);
+}
+.nav-list {
+    list-style: none;
+}
+.nav-list .nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--darkgrey);
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    color: var(--dodgerblue);
+}
+
+.nav-link {
+    color: var(--dodgerblue);
+}
+.contacts a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--lightgrey);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--dodgerblue);
+}
+.button-list {
+    list-style: none;
+}
+.button-list button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--darkgrey);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-list button:hover,
+.button-list button:focus {
+    color: var(--white);
+    background-color: var(--dodgerblue);
 }
 
 .images {
@@ -117,8 +175,9 @@ figure {
 }
 .order {
     display: flex;
-    flex-basis: 117px;
-    height: 30px;
+    align-items: center;
+    width: 200px;
+    height: 50px;
     background-color: var(--dodgerblue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -155,60 +214,6 @@ figure {
     font-style: normal;
     padding-top: 10px;
     padding-bottom: 4.5px;
-}
-.nav-list {
-    list-style: none;
-}
-.nav-list .nav-link {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--darkgrey);
-}
-
-.nav-list a:hover,
-.nav-list a:focus {
-    color: var(--dodgerblue);
-}
-
-.nav-link {
-    color: var(--dodgerblue);
-}
-
-.contacts a {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--lightgrey);
-}
-
-.contacts a:hover,
-.contacts a:focus {
-    color: var(--dodgerblue);
-}
-.button-list {
-    list-style: none;
-}
-.button-list button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    color: var(--darkgrey);
-    outline: none;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.button-list button:hover,
-.button-list button:focus {
-    color: var(--white);
-    background-color: var(--dodgerblue);
 }
 
 .address {
@@ -325,6 +330,14 @@ figure {
     padding-bottom: 30px;
 }
 .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--dodgerblue);
+    text-decoration: none;
     padding-top: 60px;
     padding-bottom: 10px;
 }
