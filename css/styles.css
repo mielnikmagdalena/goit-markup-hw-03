@@ -30,11 +30,14 @@ figure {
 .section {
     padding: 94px 0;
 }
+.page-header {
+    text-decoration: none;
+    color: #ececec;
+}
 .page-header > .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 371px;
 }
 .page-header > .container > nav {
     display: flex;
@@ -76,13 +79,21 @@ figure {
 .nav-list {
     list-style: none;
 }
+.nav-list a {
+    color: var(--darkgrey);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .nav-list .nav-link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--darkgrey);
+    color: var(--dodgerblue);
 }
 
 .nav-list a:hover,
@@ -107,6 +118,10 @@ figure {
     color: var(--dodgerblue);
 }
 .button-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 6px 22px;
     list-style: none;
 }
 .button-list button {
@@ -131,6 +146,7 @@ figure {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    list-style: none;
     gap: 30px;
     padding-bottom: 94px;
     padding-top: 25px;
@@ -152,6 +168,7 @@ figure {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    list-style: none;
     gap: 30px;
     padding-bottom: 94px;
 }
@@ -175,8 +192,8 @@ figure {
 }
 .order {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
-    width: 200px;
     height: 50px;
     background-color: var(--dodgerblue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -185,6 +202,7 @@ figure {
     border: none;
     cursor: pointer;
     margin: 15px;
+    padding: 10px 41px 10px 42px;
 }
 .text-order {
     font-weight: 700;
@@ -193,7 +211,6 @@ figure {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white);
-    padding: 10px 41px 10px 42px;
 }
 .footer {
     display: flex;
@@ -252,18 +269,24 @@ figure {
 
 .project-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100%-60px) / 3);
+    gap: 30px;
 }
 .project-list h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-align: left;
     color: var(--darkgrey);
 }
 .project-list span {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+    text-align: left;
     color: var(--lightgrey);
 }
 
