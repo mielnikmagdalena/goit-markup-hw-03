@@ -275,6 +275,17 @@ figure {
     flex-basis: calc((100%-60px) / 3);
     gap: 30px;
 }
+.project-list-item {
+    display: flex;
+    align-items: flex-start;
+}
+.figcaption-item {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+
 .project-list h3 {
     font-weight: 700;
     font-size: 18px;
@@ -282,6 +293,10 @@ figure {
     letter-spacing: 0.06em;
     text-align: left;
     color: var(--darkgrey);
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 2px;
+    padding-left: 24px;
 }
 .project-list span {
     font-size: 16px;
@@ -289,6 +304,10 @@ figure {
     letter-spacing: 0.03em;
     text-align: left;
     color: var(--lightgrey);
+    padding-top: 2px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 }
 
 .lorem-list {
