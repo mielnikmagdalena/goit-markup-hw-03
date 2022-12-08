@@ -42,6 +42,8 @@ figure {
 .page-header > .container > nav {
     display: flex;
     gap: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .page-header > .container > aside {
     display: flex;
@@ -67,6 +69,7 @@ figure {
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
 .studio-black {
     color: var(--black);
 }
@@ -120,8 +123,8 @@ figure {
 .button-list {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    padding: 6px 22px;
+    gap: 8px;
+    padding-top: 94px;
     list-style: none;
 }
 .button-list button {
@@ -148,8 +151,8 @@ figure {
     justify-content: center;
     list-style: none;
     gap: 30px;
-    padding-bottom: 94px;
     padding-top: 25px;
+    padding-bottom: 94px;
 }
 .second-heading {
     font-weight: 700;
@@ -158,8 +161,7 @@ figure {
     letter-spacing: 0.03em;
     color: var(--darkgrey);
     text-align: center;
-    padding-bottom: 25px;
-    padding-top: 47px;
+    padding-bottom: 50px;
 }
 .section-cards {
     background-color: #f5f4fa;
@@ -187,7 +189,6 @@ figure {
     text-transform: uppercase;
     color: var(--white);
     text-align: center;
-    margin: 15px;
     padding-bottom: 30px;
 }
 .order {
@@ -201,7 +202,6 @@ figure {
     outline: none;
     border: none;
     cursor: pointer;
-    margin: 15px;
     padding: 10px 41px 10px 42px;
 }
 .text-order {
@@ -282,9 +282,12 @@ figure {
     display: flex;
     flex-direction: column;
     background: #ffffff;
-    border: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    padding-left: 24px;
+    padding-right: 24px;
 }
-
 .project-list h3 {
     font-weight: 700;
     font-size: 18px;
@@ -293,20 +296,16 @@ figure {
     text-align: left;
     color: var(--darkgrey);
     padding-top: 20px;
-    padding-right: 24px;
-    padding-bottom: 2px;
-    padding-left: 24px;
+    padding-bottom: 4px;
 }
+
 .project-list span {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     text-align: left;
     color: var(--lightgrey);
-    padding-top: 2px;
-    padding-right: 24px;
     padding-bottom: 20px;
-    padding-left: 24px;
 }
 
 .lorem-list {
@@ -314,11 +313,6 @@ figure {
     list-style: none;
     justify-content: flex-start;
     gap: 30px;
-}
-.lorem-box {
-    width: 270px;
-    padding-bottom: 45px;
-    padding-top: 5px;
 }
 
 .lorem-list h3 {
@@ -328,9 +322,9 @@ figure {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--darkgrey);
-    padding-top: 94px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
+
 .lorem-list p {
     font-size: 14px;
     line-height: 1.71;
@@ -346,12 +340,15 @@ figure {
     list-style: none;
     background-color: var(--white);
 }
+
 .image > .job-list {
     flex-grow: 1;
 }
+
 .image {
-    display: flex;
+    display: block;
 }
+
 .job-list h3 {
     font-weight: 500;
     font-size: 16px;
@@ -362,6 +359,7 @@ figure {
     padding-top: 15px;
     padding-bottom: 5px;
 }
+
 .job-list span {
     font-size: 16px;
     line-height: 1.18;
