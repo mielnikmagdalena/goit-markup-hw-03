@@ -26,6 +26,13 @@ figure {
     margin: 0 auto;
     padding: 0 15px;
 }
+.section-content {
+    background-color: var(--verydarkgrey);
+}
+
+.section-cards {
+    background-color: #f5f4fa;
+}
 .section {
     padding: 94px 0;
 }
@@ -38,24 +45,20 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .page-header > .container > nav {
     display: flex;
     gap: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .page-header > .container > aside {
     display: flex;
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .page-header > .container > nav > .nav-list {
     display: flex;
     gap: 46px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .page-header > .container > nav > a {
     font-family: 'Raleway';
@@ -76,9 +79,7 @@ figure {
 .studio-white {
     color: var(--white);
 }
-.content-section {
-    background-color: var(--verydarkgrey);
-}
+
 .nav-list {
     list-style: none;
 }
@@ -159,13 +160,10 @@ figure {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: var(--darkgrey);
     text-align: center;
     padding-bottom: 50px;
 }
-.section-cards {
-    background-color: #f5f4fa;
-}
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -178,6 +176,7 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--verydarkgrey);
     padding-top: 200px;
     padding-bottom: 200px;
 }
