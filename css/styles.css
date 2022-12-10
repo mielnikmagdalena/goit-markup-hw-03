@@ -59,6 +59,8 @@ figure {
 .page-header > .container > nav > .nav-list {
     display: flex;
     gap: 46px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .page-header > .container > nav > a {
     font-family: 'Raleway';
