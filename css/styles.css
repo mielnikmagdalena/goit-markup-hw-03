@@ -112,6 +112,8 @@ figure {
     list-style: none;
     justify-content: flex-start;
     gap: 30px;
+}
+.list {
     padding-bottom: 0px;
 }
 
