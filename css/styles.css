@@ -220,7 +220,6 @@ figure {
     justify-content: center;
     list-style: none;
     gap: 30px;
-    padding-bottom: 94px;
 }
 .section-cards {
     background-color: #f5f4fa;
@@ -363,4 +362,14 @@ figure {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 30px;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--dodgerblue);
+    text-decoration: none;
+    padding-top: 60px;
 }
