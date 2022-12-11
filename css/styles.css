@@ -235,6 +235,13 @@ figure {
     list-style: none;
     gap: 30px;
 }
+.cards li {
+    background: #ffffff;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -253,7 +260,7 @@ figure {
 .company-info {
     font-style: normal;
     padding-top: 10px;
-    padding-bottom: 4.5px;
+    padding-bottom: 9px;
 }
 
 .address {
@@ -268,8 +275,7 @@ figure {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--clearwhite);
-    padding-top: 4.5px;
-    padding-bottom: 4.5px;
+    padding-bottom: 9px;
 }
 .second-contacts a:nth-child(2) {
     padding-bottom: 60px;
