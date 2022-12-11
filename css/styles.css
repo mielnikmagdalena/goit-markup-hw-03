@@ -112,6 +112,7 @@ figure {
     list-style: none;
     justify-content: flex-start;
     gap: 30px;
+    padding-bottom: 0px;
 }
 
 .lorem-list h3 {
