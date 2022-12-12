@@ -25,6 +25,7 @@ figure {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 1px dashed red;
 }
 .section-content {
     background-color: var(--verydarkgrey);
@@ -191,6 +192,7 @@ figure {
     padding-top: 94px;
     list-style: none;
 }
+
 .button-list button {
     font-weight: 500;
     font-size: 16px;
@@ -242,10 +244,21 @@ figure {
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--dodgerblue);
+    text-decoration: none;
+}
 .footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-wrapper {
@@ -257,9 +270,9 @@ figure {
     background-color: var(--verydarkgrey);
     color: var(--white);
 }
-.company-info {
+.company-info span {
     font-style: normal;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 9px;
 }
 
@@ -269,6 +282,13 @@ figure {
     letter-spacing: 0.03em;
     color: var(--white);
 }
+.second-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-style: normal;
+    padding-top: 9px;
+}
 .second-contacts a {
     text-decoration: none;
     font-size: 14px;
@@ -277,9 +297,7 @@ figure {
     color: var(--clearwhite);
     padding-bottom: 9px;
 }
-.second-contacts a:nth-child(2) {
-    padding-bottom: 60px;
-}
+
 .second-contacts span {
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -295,7 +313,6 @@ figure {
 .section {
     padding: 94px 0;
 }
-
 .project-list {
     list-style: none;
     display: flex;
@@ -371,14 +388,4 @@ figure {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 30px;
-}
-.logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--dodgerblue);
-    text-decoration: none;
-    padding-top: 60px;
 }
